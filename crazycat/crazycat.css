@@ -1,0 +1,45 @@
+.heading {
+text-align:center;
+font-family:helvetica;
+border:solid black 1px;
+padding:20px;
+margin:60px;
+}
+.cuteaf {
+	color:#964FAA;
+}
+.btns {
+	margin:60px;
+	display:grid;
+	 grid-template-columns: auto auto auto;
+	 column-gap: 70px;
+	 place-items: center;
+}
+.btn {
+	border:none;
+	background-color:#964FAA;
+	color:white;
+	font-size:24px;
+	
+}
+.btn:hover {
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+.img-container {
+	display:grid;
+	grid-template-columns: auto auto auto;
+	place-items:center;
+	
+}
+.cats {
+visibility:hidden;
+	transition: opacity 0.5s;
+}
+.reset-btn {
+	text-align:center;
+	place-items:center;
+	padding:40px;
+
+}
+
